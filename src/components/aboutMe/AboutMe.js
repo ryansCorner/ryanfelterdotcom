@@ -2,7 +2,7 @@ import React from 'react'
 import AboutPic from '../../photos/ponteveccio.jpg'
 import ProfPic from '../../photos/ProfilePic.jpeg'
 import BroadPic from '../../photos/ProfPicZoom.jpg'
-import Resume from '../../pdf/RyanFelter_Resume.pdf'
+import Resume from '../pdf/RyanFelter_Resume.pdf'
 
 class AboutMe extends React.Component {
     constructor(props) {
