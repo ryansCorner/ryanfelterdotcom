@@ -221,7 +221,7 @@ li.exp-list{
   background-color: white;
   position: relative;
   border-radius: 6px;
-  max-height: 150px;
+  /* max-height: 150px; */
   overflow: hidden;
 }
 
@@ -230,6 +230,9 @@ li.exp-list{
   background-color: lightgray;
   position: relative;
   border-radius: 6px;
+}
+.accordian-close{
+  display: 'none';
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
