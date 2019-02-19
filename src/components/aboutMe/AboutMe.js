@@ -17,14 +17,19 @@ class AboutMe extends React.Component {
                 <br />
                 <br />
 
-                <div className='row' style={{ height: (headerHeight), width: headerWidth }}>
-                    <div className='col-3'>
-                        <img className='aboutMe-pic'
+                <div
+                    className='row'
+                    style={{ width: headerWidth }}
+                >
+                    <div
+                        className='aboutMe-item col'>
+                        <img
+                            className='aboutMe-pic'
                             src={BroadPic} alt=''
                             style={{ height: '230px', width: '230px' }}
                         />
                     </div>
-                    <div className='col-8'>
+                    <div className='aboutMe-item col'>
                         <p>
                             My name is Ryan and I've loved technology since the AOL dialup days. By the time I got on Myspace, I was customizing my page, changing borders and colors. This was my first formal introduction to coding. I started a degree in business and worked in retail but always had my mom gently nugde me towards tech. Shes an IT director and one day, she told me how she had hired 8 graduates from this cutting edge software bootcamp called Sabio. Most of them had never formally studied computer science but were now doing incredible work at her company.
                                </p>
@@ -44,7 +49,7 @@ class AboutMe extends React.Component {
 
 
                         <div className='row'>
-                            <div className='col-6'>
+                            <div className='aboutMe-item col-6'>
                                 <h5><b>Contact Details</b></h5>
                                 <h6>Ryan Felter</h6>
                                 <h6>3388 N. Mills Ave. </h6>
@@ -53,13 +58,11 @@ class AboutMe extends React.Component {
                                 <h6>(909)-532-0599 </h6>
 
                             </div>
-                            <a href={Resume} download='ryan_felter_resume'>Download Ryan's Resume</a>
+                            <a href={Resume} download='ryan_felter_resume' className='aboutMe-item col'>Download Ryan's Resume</a>
                         </div>
                     </div>
                 </div>
-                <div className='row'>
 
-                </div>
 
             </React.Fragment>
         )

@@ -5,8 +5,7 @@ nav {
   color: rgb(251, 230, 230);
   overflow: hidden;
   background-color: rgb(5, 5, 5);
-  /* font-family: Arial;
-  height: 45px;
+  /* font-family: Arial;*/
   z-index: 1000;
   transition: top 0.5s;
   /* position: fixed; */
@@ -21,7 +20,7 @@ nav {
 /* nav-wrap */
 #nav-wrap {
   font: 12px 'opensans-bold', sans-serif;
-  width: 100%;
+  /* width: 100%; */
   text-transform: uppercase;
   letter-spacing: 2.5px;
   margin: 0 auto;
@@ -35,10 +34,18 @@ nav {
 
 ul.nav-list {
   list-style: none;
-  display: flex;
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
   margin: 0;
   padding: 0;
   justify-content: center;
+  align-items: center;
+
+}
+li.nav-list-inline-item:nth-child(1){
+  /* order: 1; */
+  margin: auto;
 }
 
 li.nav-list-inline-item {
@@ -46,9 +53,8 @@ li.nav-list-inline-item {
   height: 100%;
   flex: 1;
   text-align: center;
-  display: flex;
+  /* display: flex; */
   justify-content: center;
-  align-items: center;
   padding: 10px;
   transition: all 0.3s ease-in;
   cursor: pointer;

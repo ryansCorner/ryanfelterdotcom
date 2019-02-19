@@ -68,9 +68,6 @@ class Layout extends React.Component {
                 </Row>
 
                 <Row >
-
-                </Row>
-                <Row >
                     <Col className='footer'>
                         <Footer />
 

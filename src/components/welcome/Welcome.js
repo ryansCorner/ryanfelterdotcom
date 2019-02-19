@@ -1,13 +1,8 @@
 import React from 'react'
-import logo from '../../logo.svg';
 import FitText from 'react-fittext'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { link } from '@fortawesome/free-solid-svg-icons'
 import { FaLinkedinIn, FaGithubAlt } from 'react-icons/fa'
 import { IconContext } from 'react-icons'
 // import FaGithub from 'react-icons/lib/fa/github'
-
-
 
 
 class Welcome extends React.Component {
@@ -33,7 +28,7 @@ class Welcome extends React.Component {
 
         return (
             <React.Fragment>
-                <header className="App-header" style={{ height: (headerHeight), width: headerWidth }}>
+                <header className="App-header" style={{ height: (headerHeight), width: (headerWidth) }}>
                     {/* <img src={logo} className="App-logo" alt="logo" /> */}
                     <div className='row banner'>
                         <div className='banner-text'>
