@@ -11,12 +11,7 @@ import { underline } from 'ansi-colors';
 
 const Experience = (props) => {
     return (
-        <React.Fragment>
-
-          
-
-            <b><hr /></b>
-            
+        <React.Fragment>     
             <div className='row' id='skills'>
                  <div className='col-3'>
                         <br />

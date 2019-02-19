@@ -6,6 +6,7 @@ import Experience from '../experience/Experience'
 import AboutMe from '../aboutMe/AboutMe'
 import Footer from '../footer/Footer'
 import ExperienceTimeline from '../experience/ExperienceTimeline';
+import Youtube from '../youtube/Youtube'
 
 class Layout extends React.Component {
     constructor(props) {
@@ -61,9 +62,14 @@ class Layout extends React.Component {
                         <Experience />
                         <hr />
                     </Col>
+                    <Col className='experience'>
+                        <Youtube />
+                    </Col>
                 </Row>
 
+                <Row >
 
+                </Row>
                 <Row >
                     <Col className='footer'>
                         <Footer />
