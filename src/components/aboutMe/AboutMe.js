@@ -31,19 +31,27 @@ class AboutMe extends React.Component {
                     </div>
                     <div className='aboutMe-item col'>
                         <p>
-                            My name is Ryan and I've loved technology since the AOL dialup days. By the time I got on Myspace, I was customizing my page, changing borders and colors. This was my first formal introduction to coding. I started a degree in business and worked in retail but always had my mom gently nugde me towards tech. Shes an IT director and one day, she told me how she had hired 8 graduates from this cutting edge software bootcamp called Sabio. Most of them had never formally studied computer science but were now doing incredible work at her company.
+                            At the start of 2018 I decided I needed to choose a new career path.
+    A lifelong obsession with computers and websites made the decision to take on teaching myself to code an easy one.
+    I quickly found my obsession with websites and computer programs extended to an obsession with creating them as well.
+    As I finetuned my HTML, CSS and JavaScript skills and set out to create my first projects I noticed something was missing.
+    To truly create websites and software from the ground up, I needed to learn how to work with backend code as well. This led me to find instruction at Sabio where I sharpened my SQL server skills and became an expert in Nodejs.
+
                                </p>
                         <br />
                         <br />
                         <p>
 
-                            This inspired me join Sabio and formally launch my career in tech. I find myself enjoying having a new problem to solve every day. Itt gives me the opportunity to try new ways to solve old and new problems. I dont go to bed until ive fixed a specific bug or finish a certain task. I also enjoy the mixture of self directed and team work to get a job over the finish line.
+                            The tools I gained while there gave me the ability to write beautiful backend code that complimented my clean front-end.
+                             Now that my coding skills were up to par, it was time to find work. But thanks to the beautiful code I was now able to write, work found me.
+                              In September of 2018 I began current role as a Full Stack Developer, building a web platform for Eleveight Inc.
 </p>
                         <br />
                         <br />
 
                         <p>
-                            I recently participated in a Hackathon where I worked on a project to battle the stress of traffic in SoCal. We developed an in car app that would give us the estimated checkout time at a particular store so you can pick the optimal time to go shopping, get a coffee, or pick up laundry. We used React and Node for the app,  GM and Visa APIs to get relevant store data, and Google maps for navigation. I felt a great sense of pride in the final product. This experience felt like the culmination of a years worth of work where we went from ideation to prototyping in 36 hours. Im looking forward to building solutions that help scale your business, grow your customer base, and connect people in a meaningful ways.
+                            Aside from coding, my other passions include Hip Hop and Electronic music, The New York Yankees, The Los Angeles Lakers,
+                            fantasy sports, tech podcasts, history documentaries, and hanging out with my animals.
 
 </p>
 

@@ -75,54 +75,7 @@ class NavBar extends React.Component {
 
                     </ul>
                 </nav>
-                {/* <div className={this.state.scrollY > this.state.offsetTop ? 'fixed-nav nav-wrap nav' : 'navbar'} id='nav-wrap'>
-                    <a href="#home">Experience</a>
-                    <a href="#news">About Me</a>
-                    <div className="dropdown">
-                        <button className="dropbtn">Dropdown
-      <i className="fa fa-caret-down"></i>
-                        </button>
-                        <div className="dropdown-content" onClick={this.toggle}>
-                            <a href="#">Link 1</a>
-                            <a href="#">Link 2</a>
-                            <a href="#">Link 3</a>
-                        </div>
-                    </div>
-                </div> */}
-                {/* <div>
 
-                    <Navbar color="danger" light expand="md" className="navbar" id='navbar'>
-                        <NavbarBrand href="/">reactstrap</NavbarBrand>
-                        <NavbarToggler onClick={this.toggle} />
-                        <Collapse isOpen={this.state.isOpen} navbar>
-                            <Nav className="ml-auto" navbar>
-                                <NavItem>
-                                    <NavLink href="/components/">Experience</NavLink>
-                                </NavItem>
-                                <NavItem>
-                                    <NavLink href="https://github.com/reactstrap/reactstrap">Skills</NavLink>
-                                </NavItem>
-                                <UncontrolledDropdown nav inNavbar>
-                                    <DropdownToggle nav caret>
-                                        Options
-                </DropdownToggle>
-                                    <DropdownMenu right>
-                                        <DropdownItem>
-                                            Option 1
-                  </DropdownItem>
-                                        <DropdownItem>
-                                            Option 2
-                  </DropdownItem>
-                                        <DropdownItem divider />
-                                        <DropdownItem>
-                                            Reset
-                  </DropdownItem>
-                                    </DropdownMenu>
-                                </UncontrolledDropdown>
-                            </Nav>
-                        </Collapse>
-                    </Navbar>
-                </div> */}
             </React.Fragment >
         )
     }
