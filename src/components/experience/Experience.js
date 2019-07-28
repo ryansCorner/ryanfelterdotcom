@@ -18,7 +18,7 @@ const Experience = (props) => {
                         <br />
                         <br /> 
 
-                    <h2><b><u>Skills</u></b></h2>
+                    <h2><b><u>Skills</u></b></h2>;
                  </div>
 
                  <div className='col-6'>

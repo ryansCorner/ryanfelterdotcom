@@ -17,6 +17,21 @@ constructor(props){
                 <div className='row' id='experience'>
                     <div className='col'>
                         <div className="timeline">
+                        <div className='timeline-container right'>
+                                <TimelineContent
+                                key='3'
+                                company='Baseball Day Hackathon'
+                                comRole='Full Stack Developer And Presenter'
+                                responsibilities='My team took home 3rd place in the Los Angeles Regional judging for our fun new baseball game: Homerun Bingo.'
+                                date='03/2018 - 03/2018'
+                                taskName={[
+                               "Build User-friendly Baseball themed Bingo Board ",
+                               "Create User Registration/Login ",
+                               "Build Backend for Bingo Board and MLB Players",
+                               "Connect Fantasy API for updated HomeRun Statistics",
+                                ]}
+                                />
+                            </div>
                             <div className='timeline-container accordian-container left'>
                                 <TimelineContent
                                 key='1'
@@ -24,7 +39,7 @@ constructor(props){
                                 comRole='Full Stack Developer'
                                 responsibilities='My team was selected to architect the administrative portion of Eleveight,
                                 a web based, case manager platform where our clients can find jobs, scholarships, and other opportunities to assist them in the development of their personal and professional lives.My duties with the company included but were not limited to:   '
-                                date='9/2018 - Current'
+                                date='9/2018 - 6/2019'
                                 taskName={[
                                 'Implementing middleware and back end servers with Node.js, Express.js, JOI, and SQL Server to develop APIs', 
                                 'Improve administration/staff communication by creating unique dashboards for administrators and case managers so they could quickly track grant and client data as well as quick access to any new chat messages they may have received while logged out.',
