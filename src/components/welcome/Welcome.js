@@ -56,7 +56,7 @@ class Welcome extends React.Component {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
-                                        <IconContext.Provider value={{ color: 'red', className: 'global-class-name', size: '2em' }}>
+                                        <IconContext.Provider value={{ color: '#00ffff', className: 'global-class-name', size: '2em' }}>
                                             <FaGithubAlt value={{ className: 'react-icons' }} />
 
                                         </IconContext.Provider>
@@ -69,7 +69,7 @@ class Welcome extends React.Component {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
-                                        <IconContext.Provider value={{ color: 'red', className: 'global-class-name', size: '2em' }}>
+                                        <IconContext.Provider value={{ color: '#00ffff', className: 'global-class-name', size: '2em' }}>
 
                                             <FaLinkedinIn value={{ className: 'react-icons' }} />
                                         </IconContext.Provider>

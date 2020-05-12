@@ -10,20 +10,20 @@ const ExperienceCard = ({ pics, company, comRole, responsibilities, date, link, 
 
         <div style={{ textAlign: 'left' }}>
             <div className='row'>
-                <h4 className='company-title'>
+                <h5 className='company-title'>
                     <b>{company}</b>
-                </h4>
+                </h5>
             </div>
             <div className='row'>
                 <div className='col-3'>
-                    <h5 className='company-role'>
+                    <h6 className='company-role'>
                         {comRole}
-                    </h5>
+                    </h6>
                 </div>
                 <div className='col-3'>
-                    <h5 className='compnay-date'>
+                    <h6 className='compnay-date'>
                         {date}
-                    </h5>
+                    </h6>
                 </div>
             </div>
             <div className='row'>

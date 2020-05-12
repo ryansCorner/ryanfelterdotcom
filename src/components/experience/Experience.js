@@ -30,13 +30,15 @@ const Experience = (props) => {
                         <li className='exp-list' style={{ fontSize: 'larger' }}>
                             <p>
                             HTML, CSS, jQuery, JavaScript, Bootstrap, SQL Server,
-                            AJAX, NodeJs, ReactJs, ReduxJs, ExpressJs, Git 
+                            AJAX, NodeJs, ReactJs, ReduxJs, ExpressJs, Git, C#, .NET Framework
                             </p>
                         </li>
                         <li className='exp-list' style={{ fontSize: 'larger' }}>
                             <p>
-                            Chrome Dev Tools, Visual Studio Code, Postman API, 
-                        RESTful APIs, RESTful Web Services, Microsoft Office, Trello
+                            Chrome Dev Tools, Visual Studio Code, Microsoft Visual Studio,
+                             Postman API, Microsoft Team Foundation Server(TFS), 
+                        RESTful APIs, RESTful Web Services, Microsoft Office, Trello,
+                        Web Scraping, 
                                 
                             </p>
                         </li>

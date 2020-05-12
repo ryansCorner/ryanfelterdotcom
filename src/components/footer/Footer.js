@@ -1,7 +1,6 @@
 import React from 'react'
 import { IconContext } from 'react-icons'
 import { FaLinkedinIn, FaGithubAlt } from 'react-icons/fa'
-import { red } from 'ansi-colors';
 import { FiChevronsUp } from 'react-icons/fi'
 
 
@@ -16,7 +15,7 @@ class Footer extends React.Component {
                 <div className='row to-top-btn'>
                     <div className='col'>
                         <a href='#top'>
-                            <IconContext.Provider value={{ color: 'red', className: 'global-class-name', size: '3em' }}>
+                            <IconContext.Provider value={{ color: '#291b2c', className: 'global-class-name', size: '3em' }}>
 
                                 <FiChevronsUp />
                             </IconContext.Provider>
@@ -30,16 +29,16 @@ class Footer extends React.Component {
                         <a href='https://github.com/ryansCorner'
                             target='_blank'
                             res='noopener noreferrer'>
-                            <IconContext.Provider value={{ color: 'red', className: 'global-class-name', size: '2em' }}>
+                            <IconContext.Provider value={{ color: '#291b2c', className: 'global-class-name', size: '2em' }}>
                                 <FaGithubAlt value={{ className: 'react-icons' }} />
                             </IconContext.Provider>
                         </a>
 
-                        <b><span style={{ color: 'red' }}>|</span ></b>
+                        <b><span style={{ color: '#291b2c' }}>|</span ></b>
                         <a href='https://www.linkedin.com/in/ryan-felter-b47199174'
                             target='_blank'
                             rel='noopner_noreferrer'>
-                            <IconContext.Provider value={{ color: 'red', className: 'global-class-name', size: '2em' }}>
+                            <IconContext.Provider value={{ color: '#291b2c', className: 'global-class-name', size: '2em' }}>
                                 <FaLinkedinIn value={{ className: 'react-icons' }} />
                             </IconContext.Provider>
                         </a>
@@ -49,11 +48,15 @@ class Footer extends React.Component {
                 <br />
 
                 <div className='row'>
-                    <div className='col'>
-                        <p style={{ fontSize: 'smaller', color: 'red' }}>
-                            Made with React.Js <b><span style={{ color: 'red' }}>|</span ></b> By Ryan Felter
-                     </p>
-
+                    <div className="col-2">
+                        <p style={{ fontSize: 'smaller', color: '#291b2c', marginLeft: '60px' }}>Made with React.Js </p>
+                    </div>
+                    <div className="">
+                        <b><span style={{ color: '#291b2c' }}>|</span ></b>
+                    </div>
+                    <div className="col-2">
+                        <p style={{ fontSize: 'smaller', color: '#291b2c', marginRight: '84px' }}> By Ryan Felter
+                      </p>
                     </div>
                 </div>
             </React.Fragment>
@@ -86,7 +89,7 @@ class Footer extends React.Component {
 //                             <a href='https://github.com/ryansCorner'
 //                                 target='_blank'
 //                                 res='noopener noreferrer'>
-//                                 <IconContext.Provider value={{ color: 'red', className: 'global-class-name', size: '2em' }}>
+//                                 <IconContext.Provider value={{ color: '#291b2c', className: 'global-class-name', size: '2em' }}>
 //                                     <FaGithubAlt value={{ className: 'react-icons' }} />
 //                                 </IconContext.Provider>
 //                             </a>
@@ -95,7 +98,7 @@ class Footer extends React.Component {
 //                             <a href='https://www.linkedin.com/in/ryan-felter-b47199174'
 //                                 target='_blank'
 //                                 rel='noopner_noreferrer'>
-//                                 <IconContext.Provider value={{ color: 'red', className: 'global-class-name', size: '2em' }}>
+//                                 <IconContext.Provider value={{ color: '#291b2c', className: 'global-class-name', size: '2em' }}>
 //                                     <FaLinkedinIn value={{ className: 'react-icons' }} />
 //                                 </IconContext.Provider>
 //                             </a>
