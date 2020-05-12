@@ -36,9 +36,7 @@ class Layout extends React.Component {
             <React.Fragment>
                 {/* <Container> */}
                 <Row>
-                    <Col className='navbar'>
-                        <NavBar />
-                    </Col>
+                    <NavBar />
                 </Row>
                 <Row>
                     <Col className='welcome' id='top'>

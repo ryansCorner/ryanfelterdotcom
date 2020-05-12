@@ -3,6 +3,7 @@ import AboutPic from '../../photos/ponteveccio.jpg'
 import ProfPic from '../../photos/ProfilePic.jpeg'
 import BroadPic from '../../photos/ProfPicZoom.jpg'
 import Resume from '../pdf/RyanFelter_Resume.pdf'
+import { Row, Col } from 'reactstrap'
 
 class AboutMe extends React.Component {
     constructor(props) {
@@ -17,19 +18,31 @@ class AboutMe extends React.Component {
                 <br />
                 <br />
 
-                <div
+                <Row
                     className='row'
                     style={{ width: headerWidth }}
                 >
-                    <div
+                    <Col
+                        xs='3'
+                        sm='3'
+                        md='3'
+                        lg='3'
+                        xl='3'
+                        offset='1'
                         className='aboutMe-item col'>
                         <img
                             className='aboutMe-pic'
                             src={BroadPic} alt=''
                             style={{ height: '230px', width: '230px' }}
                         />
-                    </div>
-                    <div className='aboutMe-item col'>
+                    </Col>
+                    <Col
+                        xs='8'
+                        sm='8'
+                        md='8'
+                        lg='8'
+                        xl='8'
+                        className='aboutMe-item col'>
                         <p>
                             At the start of 2018 I decided I needed to choose a new career path.
     A lifelong obsession with computers and websites made the decision to take on teaching myself to code an easy one.
@@ -68,8 +81,8 @@ class AboutMe extends React.Component {
                             </div>
                             <a href={Resume} download='ryan_felter_resume' className='aboutMe-item col'>Download Ryan's Resume</a>
                         </div>
-                    </div>
-                </div>
+                    </Col>
+                </Row>
 
 
             </React.Fragment>

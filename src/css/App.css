@@ -10,7 +10,11 @@
 
 .App-header {
   /* background-image: './coffeeSteam.jpg'; */
-background-image: url('../photos/BeachGoth.jpg');
+background-image: url('../photos/losangeles.jpg');
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 /* background-size: 100%; */
 height: 700px;
   display: flex;
@@ -59,10 +63,10 @@ color: #61dafb;
    display: flex;
  }
  
- .aboutMe-item:nth-child(1){
+ /* .aboutMe-item:nth-child(1){
    flex: 0;
    justify-self: center
- }
+ } */
 
  .aboutMe-item{
    flex: auto;
@@ -109,7 +113,7 @@ li.exp-list{
 .footer{
   justify-content: center;
   /* align-items: center; */
-  background-image: url(../photos/beach-rocks.jpg);
+  background-image: url(../photos/beachsunset.jpg);
   max-height: 15%;
 }
 
@@ -137,8 +141,12 @@ li.exp-list{
 }
 
 .exp-timeline{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
   background-color: dimgray;
-  background-image: url('../photos/BeachGoth.jpg')
+  background-image: url(../photos/beachsunset.jpg)
 }
 
 /* The actual timeline (the vertical ruler) */
