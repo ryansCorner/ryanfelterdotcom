@@ -1,0 +1,23 @@
+{
+  "main.css": "/static/css/main.8e6afc95.chunk.css",
+  "main.js": "/static/js/main.2b2fcf4d.chunk.js",
+  "main.js.map": "/static/js/main.2b2fcf4d.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.fdfcfda2.js",
+  "runtime~main.js.map": "/static/js/runtime~main.fdfcfda2.js.map",
+  "static/css/2.992e8e99.chunk.css": "/static/css/2.992e8e99.chunk.css",
+  "static/js/2.b1eceffb.chunk.js": "/static/js/2.b1eceffb.chunk.js",
+  "static/js/2.b1eceffb.chunk.js.map": "/static/js/2.b1eceffb.chunk.js.map",
+  "index.html": "/index.html",
+  "precache-manifest.67f3ff7128f52c0466f0547ec54099c9.js": "/precache-manifest.67f3ff7128f52c0466f0547ec54099c9.js",
+  "service-worker.js": "/service-worker.js",
+  "static/css/2.992e8e99.chunk.css.map": "/static/css/2.992e8e99.chunk.css.map",
+  "static/css/main.8e6afc95.chunk.css.map": "/static/css/main.8e6afc95.chunk.css.map",
+  "static/media/AutomobilityLa.jpg": "/static/media/AutomobilityLa.7241fe7f.jpg",
+  "static/media/App.css": "/static/media/beach-rocks.9dc747a3.jpg",
+  "static/media/Logo.png": "/static/media/Logo.6e80d453.png",
+  "static/media/ProfPicZoom.jpg": "/static/media/ProfPicZoom.dc21a94d.jpg",
+  "static/media/ProfilePic.jpeg": "/static/media/ProfilePic.dc4243af.jpeg",
+  "static/media/RyanFelter_Resume.pdf": "/static/media/RyanFelter_Resume.910a68e7.pdf",
+  "static/media/ponteveccio.jpg": "/static/media/ponteveccio.6a37e9d3.jpg",
+  "static/media/spotifydev.jpg": "/static/media/spotifydev.ba7ea78e.jpg"
+}
