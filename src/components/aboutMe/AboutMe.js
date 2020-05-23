@@ -18,31 +18,22 @@ class AboutMe extends React.Component {
                 <br />
                 <br />
 
-                <Row
+                <div
                     className='row'
                     style={{ width: headerWidth }}
                 >
-                    <Col
-                        xs='3'
-                        sm='3'
-                        md='3'
-                        lg='3'
-                        xl='3'
-                        offset='1'
-                        className='aboutMe-item col'>
+                    <div
+
+                        className='aboutMe-item col-3'>
                         <img
                             className='aboutMe-pic'
                             src="https://i.imgur.com/nSO0j3Wb.jpg?1" alt=''
                             style={{ height: '230px', width: '230px' }}
                         />
-                    </Col>
-                    <Col
-                        xs='8'
-                        sm='8'
-                        md='8'
-                        lg='8'
-                        xl='8'
-                        className='aboutMe-item col'>
+                    </div>
+                    <div
+
+                        className='aboutMe-item col-6 '>
                         <p>
                             At the start of 2018 I decided I needed to choose a new career path.
                             A lifelong obsession with computers and websites made the decision to take on teaching myself to code an easy one.
@@ -81,8 +72,8 @@ class AboutMe extends React.Component {
                             </div>
                             <a href={"https://drive.google.com/file/d/1uC8FPESf8rHaTtPb8MXOgubtII0WYQqI/view?usp=sharing"} target="_blank" download='ryan_felter_resume' className='aboutMe-item col'>Download Ryan's Resume</a>
                         </div>
-                    </Col>
-                </Row>
+                    </div>
+                </div>
 
 
             </React.Fragment>
