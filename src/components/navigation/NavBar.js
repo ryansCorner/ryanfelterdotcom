@@ -1,11 +1,6 @@
 import React from 'react'
 import '../../css/Navbar.css'
-import classnames from 'classnames'
 
-import {
-    Collapse, Navbar, NavbarToggler, NavbarBrand, Nav,
-    NavItem, NavLink, UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem
-} from 'reactstrap'
 
 class NavBar extends React.Component {
     constructor(props) {

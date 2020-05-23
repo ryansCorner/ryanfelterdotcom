@@ -1,13 +1,4 @@
 import React from 'react';
-import {
-    Card, Button, CardImg, CardTitle, CardText, CardDeck,
-    CardSubtitle, CardBody
-} from 'reactstrap';
-import ExperienceCard from './ExperienceCard';
-import EleveightLogo from '../../photos/Logo.png'
-import SpotifyDevLogo from '../../photos/spotifydev.jpg'
-import AutomobilityLA from '../../photos/AutomobilityLa.jpg'
-import { underline } from 'ansi-colors';
 
 const Experience = (props) => {
     return (

@@ -1,8 +1,5 @@
 import React from 'react'
-import {
-    Card, Button, CardImg, CardTitle, CardText, CardDeck,
-    CardSubtitle, CardBody
-} from 'reactstrap';
+
 
 const ExperienceCard = ({ pics, company, comRole, responsibilities, date, link, taskName }) => {
     return (
