@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/ryansCorner/ryanfelterdotcom/precache-manifest.434fd98f188f4490d98f76eadcf79f10.js"
+  "/ryanfelterdotcom/precache-manifest.0c5cffb53426cb9d090b55d9d562a753.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/ryansCorner/ryanfelterdotcom/index.html", {
+workbox.routing.registerNavigationRoute("/ryanfelterdotcom/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
