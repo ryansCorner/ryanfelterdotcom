@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/ryanfelterdotcom/precache-manifest.48d9b84390552910661e2e22d5c2bb66.js"
+  "/ryanfelterdotcom/precache-manifest.f5a10bfbb92cc08f85d63d0eb118a202.js"
 );
 
 workbox.clientsClaim();
