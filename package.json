@@ -17,7 +17,6 @@
     "react-fittext": "^1.0.0",
     "react-icons": "^3.4.0",
     "react-scripts": "2.1.5",
-    "reactstrap": "^7.1.0",
     "serve": "^10.1.2"
   },
   "scripts": {

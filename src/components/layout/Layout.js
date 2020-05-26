@@ -1,5 +1,4 @@
 import React from 'react'
-import { Container, Row, Col } from 'reactstrap'
 import NavBar from '../navigation/NavBar';
 import Welcome from '../welcome/Welcome';
 import Experience from '../experience/Experience'
@@ -35,43 +34,43 @@ class Layout extends React.Component {
         return (
             <React.Fragment>
                 {/* <Container> */}
-                <Row>
+                <div className='layout-row'>
                     <NavBar />
-                </Row>
-                <Row>
-                    <Col className='welcome' id='top'>
+                </div>
+                <div className='layout-row'>
+                    <div className='col welcome' id='top'>
                         <Welcome />
-                    </Col>
-                </Row>
-                <Row>
-                    <Col className='aboutMeComponent' id='aboutMe'>
+                    </div>
+                </div>
+                <div className='layout-row'>
+                    <div className='col aboutMeComponent' id='aboutMe'>
                         <AboutMe />
-                    </Col>
-                </Row>
-                <Row>
-                    <Col className='exp-timeline'>
+                    </div>
+                </div>
+                <div className='layout-row'>
+                    <div className='col exp-timeline'>
                         <ExperienceTimeline />
-                    </Col>
-                </Row>
+                    </div>
+                </div>
                 {/* </Container>
                 <Container className='App'> */}
-                <Row >
-                    <Col className='experience'>
+                <div className='layout-row' >
+                    <div className='col experience'>
                         <Experience />
                         <hr />
-                    </Col>
-                    <Col className='experience'>
+                    </div>
+                    <div className='col experience'>
                         <Youtube />
-                    </Col>
-                </Row>
+                    </div>
+                </div>
 
-                <Row >
-                    <Col className='footer'>
+                <div className='layout-row' >
+                    <div className='col footer'>
                         <Footer />
 
-                    </Col>
+                    </div>
 
-                </Row>
+                </div>
                 {/* </Container> */}
             </React.Fragment>
         )

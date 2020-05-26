@@ -144,6 +144,12 @@ li.exp-list{
   padding: 2px 16px;
 }
 
+.layout-row{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
