@@ -21,7 +21,7 @@ class AboutMe extends React.Component {
                             style={{ height: '230px', width: '230px' }}
                         />
                     </div>
-                    <div className='aboutMe-item col-6 '>
+                    <div className='aboutMe-item col-lg-6 col-sm-6 col-lg-6 col-xl-6'>
                         <p>
                             At the start of 2018 I decided I needed to choose a new career path.
                             A lifelong obsession with computers and websites made the decision to take on teaching myself to code an easy one.
